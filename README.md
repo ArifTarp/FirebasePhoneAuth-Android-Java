@@ -2,6 +2,9 @@
 ## Configuration Steps
 - After clone the application, we create an application from the firebase console.
 - While creating the firebase application, we put the google-services.json file into our project in the place specified in instruction.
+- In the firebase console, enable the Phone option from the sign-in method section of the authentication section.
+![image](https://user-images.githubusercontent.com/46637720/117214210-2c864a80-ae05-11eb-82b2-dbb4914443d3.png)
+
 - After receiving SHA-1 and SHA-256 by double clicking on the image in right side of android studio, we add it to the sha certificate fingerprints section in the project settings in the firebase console.
 - ![image](https://user-images.githubusercontent.com/46637720/117212327-df08de00-ae02-11eb-8985-76c76d1541b2.png)
 - For recaptcha cancellation, in the google cloud console of application enable "Android Device Verification" from library
